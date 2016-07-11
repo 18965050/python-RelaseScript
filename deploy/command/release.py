@@ -3,10 +3,11 @@
 IO项目发布脚本. 选择需要执行的发布命令, 进行不同的发布操作
 	source: 获取源文件
 	compile: 编译,打包源代码
+	redis: 启动/停止/重启 redis
 	nginx: 启动/停止/重启 nginx
 	io-all: 启动/停止/重启 io-all应用
 	ck-puck: 启动/停止/重启 ck-puck应用
-
+	all: 应用源码下载, 编译打包,启动一条龙服务
 """
 
 import argparse
